@@ -3,215 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROKOL-GROUND — Обладнання для проколу ґрунту</title>
+    <title>PROKOL-GROUND — Компактне обладнання для проколу ґрунту</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-pattern { background-image: radial-gradient(var(--tw-shadow-color) 1px, transparent 1px); background-size: 32px 32px; }
+    </style>
 </head>
 <body class="bg-zinc-950 text-zinc-100 font-sans antialiased selection:bg-orange-500 selection:text-white">
 
-    <nav class="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
+    <nav class="sticky top-0 z-50 bg-zinc-950/90 backdrop-blur-sm border-b border-zinc-800">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center gap-2">
                 <span class="text-2xl font-black tracking-wider text-white">PROKOL<span class="text-orange-500">-GROUND</span></span>
             </div>
             <div class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide uppercase text-zinc-400">
                 <a href="#home" class="hover:text-orange-500 transition-colors">Головна</a>
-                <a href="#benefits" class="hover:text-orange-500 transition-colors">Переваги</a>
-                <a href="#equipment" class="hover:text-orange-500 transition-colors">Обладнання</a>
+                <a href="#algorithm" class="hover:text-orange-500 transition-colors">Як це працює</a>
+                <a href="#equipment" class="hover:text-orange-500 transition-colors">Каталог</a>
                 <a href="#contacts" class="hover:text-orange-500 transition-colors">Контакти</a>
             </div>
             <div>
-                <a href="tel:+380934145714" class="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-5 py-2.5 rounded-lg text-sm tracking-wide transition-all shadow-lg shadow-orange-500/20 active:scale-95">
+                <a href="tel:+380934145714" class="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-5 py-2.5 rounded-lg text-sm tracking-wide transition-all shadow-lg shadow-orange-500/10 active:scale-95">
                     <i class="fa-solid fa-phone text-xs"></i> +38 093 414 57 14
                 </a>
             </div>
         </div>
     </nav>
 
-    <header id="home" class="relative pt-12 pb-20 md:py-24 overflow-hidden border-b border-zinc-900">
+    <header id="home" class="hero-pattern shadow-orange-500/5 relative pt-12 pb-20 md:py-24 overflow-hidden border-b border-zinc-900">
+        <div class="absolute inset-0 bg-zinc-950/90 z-0"></div>
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-orange-500/10 text-orange-400 border border-orange-500/20">
-                        <span class="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse"></span> Виробництво гідравлічного обладнання
+                        <span class="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse"></span> Ручний та мобільний гідроінструмент
                     </span>
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
-                        Потужні установки для <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-500">проколу ґрунту</span>
+                        Переносні установки для <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-500">проколу ґрунту</span>
                     </h1>
                     <p class="text-zinc-400 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 font-normal leading-relaxed">
-                        Почніть свій високоприбутковий бізнес у сфері підземних комунікацій. Проколи під дорогами, майданчиками та газонами від 50 мм до 300 мм без руйнування благоустрою.
+                        Заробляйте на прокладанні комунікацій без руйнування ландшафту. Потужний ручний комплект: переноситься силами двох людей, працює з мінімальних приямків у підвалах та колодязях.
                     </p>
                     <div class="pt-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#algorithm" class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-all active:scale-95 text-center shadow-lg shadow-orange-500/20">
+                            Подивитись процес
+                        </a>
                         <a href="#equipment" class="bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white font-bold px-8 py-4 rounded-xl transition-all active:scale-95 text-center">
-                            Дивитись каталог
+                            Ціни на обладнання
                         </a>
                     </div>
                 </div>
                 <div class="lg:col-span-5 relative">
-                    <div class="absolute inset-0 bg-gradient-to-tr from-orange-500/10 to-transparent blur-3xl rounded-full"></div>
-                    <div class="relative rounded-2xl border border-zinc-800 bg-zinc-900/50 p-2 overflow-hidden shadow-2xl">
-                        <img src="image.webp" alt="Гідравлічна установка для проколу ґрунту" class="w-full h-auto rounded-xl object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-orange-500/20 to-transparent blur-3xl rounded-full"></div>
+                    <div class="relative rounded-2xl border border-zinc-800 bg-zinc-900/50 p-2 overflow-hidden shadow-2xl shadow-zinc-950/50">
+                        <img src="Main-Equipment.webp" alt="Компактний комплект для проколу ґрунту" class="w-full h-auto rounded-xl object-cover">
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="benefits" class="py-20 bg-zinc-950/50 border-b border-zinc-900">
+    <section id="algorithm" class="py-24 bg-zinc-900/30 border-b border-zinc-900">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
-                <h2 class="text-2xl sm:text-3xl font-black tracking-tight uppercase text-white">Готова бізнес-модель</h2>
-                <div class="h-1 w-12 bg-orange-500 mx-auto rounded-full"></div>
-                <p class="text-zinc-400 text-sm sm:text-base">Чому купівля нашого гідравлічного інструменту — це гарантований прибуток</p>
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-12">
+                <span class="text-xs uppercase font-semibold text-orange-500 tracking-wider">Ефективність без руйнувань</span>
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight text-white leading-tight">Візуальний алгоритм: Від потреби до результату</h2>
+                <p class="text-zinc-400 text-sm sm:text-base">Подивіться, як компактне ручне обладнання виконує завдання, залишаючи бруківку та двір клієнта абсолютно неушкодженими.</p>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-zinc-900/40 border border-zinc-900 p-6 rounded-xl hover:border-zinc-800 transition-all group">
-                    <div class="w-12 h-12 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 mb-5 group-hover:bg-orange-500 group-hover:text-white transition-all">
-                        <i class="fa-solid fa-bolt text-lg"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Швидкий старт</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Окупність всього за 10-15 пройдених об'єктів (до місяця активної роботи).</p>
+            
+            <div class="relative rounded-2xl border border-zinc-800 bg-zinc-900/50 p-2 overflow-hidden shadow-2xl">
+                <img src="Process-Algorithm.webp" alt="Покроковий алгоритм ручного проколу ґрунту" class="w-full h-auto rounded-xl">
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-sm">
+                <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/50 space-y-2">
+                    <div class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-base">1</div>
+                    <h4 class="font-bold text-white uppercase text-xs tracking-wide">Жодних пошкоджень покриття</h4>
+                    <p class="text-zinc-400 text-xs leading-relaxed">Всі приямки копаються виключно в зонах ґрунту або газону поруч. Елітна плитка, асфальт чи бетонне покриття залишаються недоторканими.</p>
                 </div>
-                <div class="bg-zinc-900/40 border border-zinc-900 p-6 rounded-xl hover:border-zinc-800 transition-all group">
-                    <div class="w-12 h-12 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 mb-5 group-hover:bg-orange-500 group-hover:text-white transition-all">
-                        <i class="fa-solid fa-wallet text-lg"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Високий дохід</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Середній щоденний заробіток бригади становить від 15 000 до 25 000 грн.</p>
+                <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/50 space-y-2">
+                    <div class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-base">2</div>
+                    <h4 class="font-bold text-white uppercase text-xs tracking-wide">Робота силами двох людей</h4>
+                    <p class="text-zinc-400 text-xs leading-relaxed">Завдяки модульній конструкції та зручним ручкам на маслостанції, все обладнання легко переноситься руками без важкої будівельної техніки.</p>
                 </div>
-                <div class="bg-zinc-900/40 border border-zinc-900 p-6 rounded-xl hover:border-zinc-800 transition-all group">
-                    <div class="w-12 h-12 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 mb-5 group-hover:bg-orange-500 group-hover:text-white transition-all">
-                        <i class="fa-solid fa-users-gear text-lg"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Мінімум людей</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Для повноцінного виконання робіт на об'єкті достатньо всього 2 осіб.</p>
-                </div>
-                <div class="bg-zinc-900/40 border border-zinc-900 p-6 rounded-xl hover:border-zinc-800 transition-all group">
-                    <div class="w-12 h-12 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 mb-5 group-hover:bg-orange-500 group-hover:text-white transition-all">
-                        <i class="fa-solid fa-arrow-trend-up text-lg"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-white mb-2">Величезний попит</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Стабільні замовлення круглий рік: газ, вода, світло, інтернет, каналізація.</p>
+                <div class="p-5 rounded-xl border border-zinc-900 bg-zinc-950/50 space-y-2">
+                    <div class="w-8 h-8 rounded-lg bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold text-base">3</div>
+                    <h4 class="font-bold text-white uppercase text-xs tracking-wide">Вихід труби під плиткою</h4>
+                    <p class="text-zinc-400 text-xs leading-relaxed">Результат роботи — ідеально виведена під землю захисна пластикова труба, яка виходить безпосередньо в призначеному місці без демонтажу благоустрою.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="equipment" class="py-20 border-b border-zinc-900">
+    <section id="equipment" class="py-24 border-b border-zinc-900 hero-pattern shadow-orange-500/5">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
-                <h2 class="text-2xl sm:text-3xl font-black tracking-tight uppercase text-white">Обладнання у продажу</h2>
-                <div class="h-1 w-12 bg-orange-500 mx-auto rounded-full"></div>
-                <p class="text-zinc-400 text-sm sm:text-base">Надійні технічні рішення для професійної роботи. Гарантія 1 рік на вузли</p>
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16 relative z-10">
+                <span class="text-xs uppercase font-semibold text-orange-500 tracking-wider">Продукція та ціни</span>
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight text-white leading-tight">Виберіть оптимальну конфігурацію</h2>
+                <p class="text-zinc-400 text-sm sm:text-base">Надійні технічні вузли власного виробництва. Офіційна гарантія 12 місяців.</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl overflow-hidden shadow-xl flex flex-col justify-between">
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+                <div class="bg-zinc-900/60 backdrop-blur-sm border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between">
                     <div>
-                        <div class="p-2">
-                            <img src="image (1).webp" alt="Гідравлічна установка без маслостанції" class="w-full h-56 object-cover rounded-xl">
-                        </div>
                         <div class="p-6 space-y-4">
+                            <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center text-xl"><i class="fa-solid fa-gears"></i></div>
                             <h3 class="text-xl font-bold text-white leading-tight">Гідравлічна установка (базова)</h3>
-                            <p class="text-zinc-400 text-xs">Працює від сторонньої гідравліки: підключається безпосередньо до екскаватора, маніпулятора чи трактора.</p>
-                            <ul class="space-y-2 text-sm text-zinc-300 border-t border-zinc-800/60 pt-4">
-                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Довжина проколу: до 30-100 м</li>
+                            <p class="text-zinc-400 text-xs">Мобільна станина з двома потужними циліндрами. Може підключатися до наявної у вас техніки (трактор, екскаватор) через швидкороз'ємні з'єднання.</p>
+                            <ul class="space-y-2 text-sm text-zinc-300 border-t border-zinc-800 pt-4">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Довжина проколу: до 30-50 м</li>
                                 <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Діаметри розширення: 50-300 мм</li>
-                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Робота в обмеженому просторі</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Компактні габарити для легкого перенесення</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="p-6 bg-zinc-900/20 border-t border-zinc-800/40 space-y-4">
+                    <div class="p-6 bg-zinc-900/20 border-t border-zinc-800 space-y-4">
                         <div class="flex items-baseline justify-between">
-                            <span class="text-zinc-500 text-xs uppercase font-semibold">Ціна базового блоку</span>
+                            <span class="text-zinc-500 text-xs uppercase font-semibold">Вартість станини</span>
                             <span class="text-2xl font-black text-white">58 000 <span class="text-orange-500 text-base">грн</span></span>
                         </div>
-                        <a href="tel:+380934145714" class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-4 rounded-xl text-center transition-all text-sm shadow-md shadow-orange-500/10">
-                            Замовити установку
+                        <a href="tel:+380934145714" class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-4 rounded-xl text-center transition-all text-sm shadow-lg shadow-orange-500/10">
+                            Купити установку
                         </a>
                     </div>
                 </div>
 
-                <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl overflow-hidden shadow-xl flex flex-col justify-between">
-                    <div>
-                        <div class="p-2">
-                            <img src="image (2).webp" alt="Бензинова маслостанція 16 к.с." class="w-full h-56 object-cover rounded-xl">
-                        </div>
-                        <div class="p-6 space-y-4">
-                            <h3 class="text-xl font-bold text-white leading-tight">Гідравлічна маслостанція</h3>
-                            <p class="text-zinc-400 text-xs">Автономне джерело тиску. Спеціально розраховане під параметри циліндрів нашої прокольної машини.</p>
-                            <ul class="space-y-2 text-sm text-zinc-300 border-t border-zinc-800/60 pt-4">
-                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Потужність двигуна: 16 к.с.</li>
-                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Паливо: Бензин (А-92/А-95)</li>
-                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-orange-500 text-xs"></i> Міцна захисна трубчаста рама</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="p-6 bg-zinc-900/20 border-t border-zinc-800/40 space-y-4">
-                        <div class="flex items-baseline justify-between">
-                            <span class="text-zinc-500 text-xs uppercase font-semibold">Окремий агрегат</span>
-                            <span class="text-2xl font-black text-white">Договірна</span>
-                        </div>
-                        <a href="tel:+380934145714" class="block w-full bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-white font-bold py-3 px-4 rounded-xl text-center transition-all text-sm">
-                            Дізнатись ціну
-                        </a>
-                    </div>
-                </div>
-
-                <div class="bg-gradient-to-b from-orange-500/10 to-zinc-900/50 border-2 border-orange-500 rounded-2xl overflow-hidden shadow-2xl relative flex flex-col justify-between">
-                    <div class="absolute top-4 right-4 bg-orange-500 text-white font-black text-[10px] uppercase px-2.5 py-1 rounded-md tracking-wider shadow-md z-10">Хіт продажів</div>
-                    <div>
-                        <div class="p-2">
-                            <img src="image.webp" alt="Повний готовий комплект для проколу ґрунту" class="w-full h-56 object-cover rounded-xl">
-                        </div>
-                        <div class="p-6 space-y-4">
-                            <h3 class="text-xl font-bold text-white leading-tight">Повний готовий комплект</h3>
-                            <p class="text-zinc-400 text-xs">Ідеальне рішення «Під Ключ». Завантажив у причіп чи мікроавтобус — і одразу їдеш заробляти гроші на об'єкт.</p>
-                            <ul class="space-y-2 text-sm text-zinc-200 border-t border-orange-500/20 pt-4">
-                                <li class="flex items-center gap-2 font-medium text-orange-400"><i class="fa-solid fa-circle-plus text-xs"></i> Гідравлічний блок установки</li>
-                                <li class="flex items-center gap-2 font-medium text-orange-400"><i class="fa-solid fa-circle-plus text-xs"></i> Маслостанція на 16 кінських сил</li>
-                                <li class="flex items-center gap-2 font-medium text-orange-400"><i class="fa-solid fa-circle-plus text-xs"></i> 12 метрів бурових штанг у комплекті</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="p-6 bg-orange-500/5 border-t border-orange-500/10 space-y-4">
-                        <div class="flex items-baseline justify-between">
-                            <span class="text-orange-400 text-xs uppercase font-bold tracking-wider">Ціна за весь комплект</span>
-                            <span class="text-3xl font-black text-white">96 000 <span class="text-orange-500 text-lg">грн</span></span>
-                        </div>
-                        <a href="tel:+380934145714" class="block w-full bg-orange-500 hover:bg-orange-600 text-white font-black py-3.5 px-4 rounded-xl text-center transition-all text-sm shadow-lg shadow-orange-500/20 transform hover:-translate-y-0.5">
-                            Купити повний комплект
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contacts" class="py-16 bg-zinc-950 border-t border-zinc-900 text-zinc-500 text-sm">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-start border-b border-zinc-900 pb-12 mb-8">
-                <div class="md:col-span-6 space-y-4">
-                    <span class="text-xl font-black tracking-wider text-white">PROKOL<span class="text-orange-500">-GROUND</span></span>
-                    <p class="text-zinc-400 max-w-sm leading-relaxed text-xs">Виробництво та продаж надійного професійного інструменту для безтраншейного прокладання інженерних мереж та комунікацій.</p>
-                </div>
-                <div class="md:col-span-6 space-y-4 text-left md:text-right">
-                    <p class="text-zinc-400 font-bold uppercase tracking-wider text-xs">Зв'язок з виробником</p>
-                    <div class="space-y-2 text-sm">
-                        <a href="tel:+380934145714" class="block text-white font-black text-xl hover:text-orange-500 transition-colors">+38 093 414 57 14</a>
-                        <p class="text-zinc-400 text-xs"><i class="fa-solid fa-location-dot text-orange-500 mr-1.5"></i> Доставка по всій Україні або Самовивіз (Київ)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-                <p>&copy; 2026 PROKOL-GROUND. Всі права захищені. Створено для успішного бізнесу.</p>
-                <div class="flex gap-4 text-zinc-400 text-base">
-                    <a href="tel:+380934145714" class="hover:text-orange-500 transition-colors"><i class="fa-solid fa-phone"></i></a>
-                    <a href="#" class="hover:text-orange-500 transition-colors"><i class="fa-brands fa-viber"></i></a>
-                    <a href="#" class="hover:text-orange-500 transition-colors"><i class="fa-brands fa-telegram"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
+                <div class="bg-zinc-900/60 backdrop-blur-sm border border-zinc-800 rounded-2xl
